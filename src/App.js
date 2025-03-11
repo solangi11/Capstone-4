@@ -16,7 +16,7 @@ import { Provider } from 'react-redux';
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/",
+      path: "/",  
       element: <MainNavBar/>,
       errorElement: <><h1> Something wrong </h1></>,
       children: [
@@ -39,8 +39,6 @@ function App() {
         <RouterProvider router={router} />
       </Provider>
     </div>  
-
-      
   );
 }
 

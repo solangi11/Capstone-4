@@ -4,6 +4,7 @@ import SecondSectionImg from '../images/GeniusGeneric.png';
 
 const TravelMore = () => {
     const isMobile = useMediaQuery("(max-width: 768px)");
+    
     return (
         <Box
             sx={{

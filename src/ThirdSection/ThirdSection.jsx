@@ -18,6 +18,7 @@ import Cottages from "../images/Cottages.jpeg"
 import Apartment from "../images/Apartment.jpeg"
 import Vilales from "../images/Vilales.jpeg"
 
+
 const cities = [
   {
     name: "Hotel",

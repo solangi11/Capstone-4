@@ -27,6 +27,7 @@ const TrendingDestinations = () => {
     color: "white",
     px: 1,
   }}
+  
 >
   <Typography fontWeight="bold" fontSize="25px">
     Rawalpindi

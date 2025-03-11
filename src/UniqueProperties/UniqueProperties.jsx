@@ -16,7 +16,7 @@ import Hazoltan from "../images/Deal-img/Hazolton.jpg"
 import Gulbrge from "../images/Deal-img/Gulbrge.jpg"
 import { Link } from 'react-router-dom';
 
-// Dummy data for cities
+
 const cities = [
     {
         name: "Millennium Place Barsha Heights Hotel",
@@ -26,8 +26,9 @@ const cities = [
         review: 723,
         price: "85,224",
         deletedprice :123456,
-        image: Avari, // Replace with the actual image URL
+        image: Avari,
     },
+
     {
         name: "Ramada Encore by Wyndham Istanbul Sisli",
         place: "Tower Homlets Unitex KIngdom ,London",
@@ -35,7 +36,7 @@ const cities = [
         work: "Excellent",
         review: 723,
         price: "85,224",
-        image: City, // Replace with the actual image URL
+        image: City,
     },
     {
         name: "M Hotel Makkah by Millennium",
@@ -44,7 +45,7 @@ const cities = [
         work: "Excellent",
         review: 723,
         price: "85,224",
-        image: Goodwood, // Replace with the actual image URL
+        image: Goodwood, 
     },
     {
         name: "Ramada Istanbul Grand Bazaar",
@@ -53,7 +54,7 @@ const cities = [
         work: "Excellent",
         review: 723,
         price: "85,224",
-        image: Reina, // Replace with the actual image URL
+        image: Reina,
     },
     {
         name: "Swissôtel Al Murooj Dubai",
@@ -62,7 +63,7 @@ const cities = [
         work: "Excellent",
         review: 723,
         price: "85,224",
-        image: Three, // Replace with the actual image URL
+        image: Three,
     },
     {
         name: "Elaf Kinda Hotel",
@@ -71,7 +72,7 @@ const cities = [
         work: "Excellent",
         review: 723,
         price: "85,224",
-        image: Sky, // Replace with the actual image URL
+        image: Sky,
     },
     {
         name: "Crowne Plaza Istanbul - Old City, an IHG Hotel",
@@ -80,7 +81,7 @@ const cities = [
         work: "Excellent",
         review: 723,
         price: "85,224",
-        image: Sultan, // Replace with the actual image URL
+        image: Sultan,
     },
     {
         name: "Atana Hotel",

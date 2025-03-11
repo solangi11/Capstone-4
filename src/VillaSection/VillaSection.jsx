@@ -7,25 +7,26 @@ const VillaSection = () => {
   return (
     <Box
       sx={{
-        backgroundImage: `url(${SSSS})`, // Set the background image here
-        backgroundSize: "cover", // Make the image cover the entire box
-        backgroundPosition: "center", // Center the image
+        backgroundImage: `url(${SSSS})`, 
+        backgroundSize: "cover",
+        backgroundPosition: "center",
         maxWidth: isMobile ? "100%" : "70%" , // Responsive width
-        margin: "auto", // Center the box horizontally
-        padding: "3rem", // Add some padding
-        borderRadius: "8px", // Optional: Add rounded corners
-        height: { xs: "250px", sm: "300px" }, // Responsive height
+        margin: "auto",
+        padding: "3rem",
+        borderRadius: "8px",
+        height: { xs: "250px", sm: "300px" },
         display: "flex",
-        alignItems: "flex-start", // Start items vertically
-        justifyContent: "flex-start", // Start items horizontally
+        alignItems: "flex-start",
+        justifyContent: "flex-start",
         position: "relative",
       }}
+       
       className="container-lg gap-2 align-items-center py-2 mt-lg-5"
     >
       <Box
         sx={{
           position: "absolute",
-          top: { xs: "60%", sm: "50%" }, // Adjust vertical position for smaller screens
+          top: { xs: "60%", sm: "50%" },
           left: { xs: "10%", sm: "20%", lg: "25%" }, // Adjust horizontal position
           transform: "translate(-10%, -50%)", // Ensure proper alignment
           textAlign: "left", // Align text to the left
